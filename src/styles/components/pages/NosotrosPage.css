@@ -1,0 +1,136 @@
+.historia{
+    margin-bottom: 2em;
+}
+.historia p{
+    font-size: 0.8em;
+}
+
+.historia h2{
+    font-size: 2em;
+}
+
+hr{
+    border: 0.1px solid rgba(23, 124, 201, 0.39);
+  }
+
+/* .staff{
+    margin-bottom: 2em;
+}
+
+.persona{
+    width: 18%;
+    border: 1px solid grey;
+    border-radius: 0.25em;
+    float: left;
+    margin-left: 2.25%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.persona img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    margin: 0.8em 0 1em;
+    max-width: 70%;
+}
+
+.persona h5, 
+.persona h6{
+    text-align: center;
+    font-weight: normal;
+    color:#2e64a1;
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 0.9em;
+}
+
+.persona h6{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.persona p{
+    font-size: 0.7em;
+    color: #444;
+    margin: 0 1em 1em;
+}
+
+.primero{
+    margin: 0;
+}
+
+.personas{
+    overflow: hidden;
+} */
+
+/* Three columns side by side */
+.columna {
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-top: 1em;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .columna {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  h2{
+      font-size: 1.1em;
+      color: rgb(8, 32, 50);
+  }
+.descripcion{
+      font-size: 0.9em;
+  }
+
+  h1{
+    font-size: 1.4em;
+    /* margin-bottom: 1em; */
+    color: rgb(8, 32, 50);
+    
+  }
+

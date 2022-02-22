@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+      /* background: url("../img/fondo2.jpg") no-repeat scroll center top #0000001e; */
+       
+}
+
+.holder{
+  width: 960px;
+  margin: 0 auto;
+}

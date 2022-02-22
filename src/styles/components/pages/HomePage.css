@@ -1,0 +1,77 @@
+main .portada{
+    background: url("../../../../public/images/portada.jpg");
+    height: 80vh;
+    text-align: right;
+    font-size: 1.7em;
+    
+}
+
+main .portada p{
+    width: 40vw;
+    float: right;
+    margin-right: 2em;
+    text-shadow: rgba(0, 7, 12, 0.863);
+    font-style: italic;
+    margin-top: 2em;
+
+}
+
+main .tarjetas{
+    /* box-sizing: border-box; */
+    /* display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    height: 300px;
+    gap: 3em;
+    padding-top: 1em;
+   padding: 1em;
+   justify-items: stretch;*/
+    /* cursor: pointer;  */
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+    margin-top: 1.5em;
+    
+
+}
+main .tarjetas .tarjeta1{
+    background: url("../../../../public/images/casa.jpg");
+    width: 30%;
+    object-fit: cover;
+    
+}
+
+main .tarjetas .tarjeta2{
+        background: url("../../../../public/images/dique.jpg");
+        width: 30%;
+      
+    
+}
+main .tarjetas .tarjeta3{
+    background: url("../../../../public/images/barriochico.jpg");
+    width: 30%;
+    object-fit:scale-down;
+    
+
+}
+main .tarjetas h2{
+    padding-left: 1em;
+    padding-top: 1em;
+    
+}
+
+main .tarjetas .anim{
+     /* opacity: 0.7; */
+     filter: grayscale(0.8);
+}
+main .tarjetas .anim:hover{
+    animation-name: grayscale;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes grayscale{
+    100%{
+        filter: grayscale(0);
+    }
+}

@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.galeria{
+    
+    display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  
+  top: 150px;
+}
+
+.column {
+    width: 30%;
+    padding: 5px;
+    overflow: hidden;
+    height: 300px;
+    
+    
+  }
+
+  .column img{
+    width: 100%;
+    height: auto;
+    /* display: block; */
+    
+}
+
+@supports(object-fit: cover){
+    .column img{
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+}
+  
+  /* Clear floats after image containers */
+  .galeria::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  
+
+ 
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:1;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+/* .column:hover .overlay {
+  opacity: 1;
+} */
+ 
+  

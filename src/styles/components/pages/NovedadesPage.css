@@ -1,0 +1,20 @@
+h2{
+    margin-bottom: 1em;
+    font-size: 1.1em;
+      color: rgb(8, 32, 50);
+
+}
+
+.novedades{
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.novedades hr{
+    margin-top: 1em;
+}
+
+.novedades h1{
+    margin-bottom: 0.5em;
+    color: rgb(8, 32, 50);
+}

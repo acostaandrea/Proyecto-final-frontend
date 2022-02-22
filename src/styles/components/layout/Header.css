@@ -1,0 +1,63 @@
+header{
+    position: sticky;
+    top: 0; 
+    height: 90px;
+    background-color: rgba(8, 32, 50, 0.849);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+
+}
+
+header .logo{
+    /* display: inline-block; */
+    margin-left: 1.5em;
+    width: 100em;
+    
+}
+
+header .logo h1{
+    color: white;
+    font-weight: 10;
+    font-size: 2em;
+    margin-left: 0;
+    
+    
+        
+}
+
+
+     
+nav div ul{
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    text-transform: uppercase;
+    text-align: center;
+       
+}
+
+/* nav div ul li{
+   
+    text-align: center;
+    
+    /* display: block; */
+    /* padding: 0em 0.5em; */
+    /* text-transform: uppercase; */
+    
+    
+/*  */
+div ul li a:hover{
+    color: rgb(240, 165, 0);
+}
+
+div ul li a.activo{
+    color: rgb(240, 165, 0);
+}

@@ -1,0 +1,12 @@
+footer{
+    background-color: rgba(8, 32, 50, 0.534);
+    clear: both;
+    color: rgb(255, 255, 255);
+    padding: 0.5em 0;
+    margin-top: 2em;
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 2em;
+    
+    
+}
